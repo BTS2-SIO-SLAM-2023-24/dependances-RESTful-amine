@@ -1,8 +1,8 @@
 import express from 'express';
 import http from 'http';
 import mongoose from 'mongoose';
-import { config } from './src/config/config'; //les accolades {} sont utilisées pour spécifier les éléments particuliers
-import Logging from './src/library/Logging';
+import { config } from './config/config'; //les accolades {} sont utilisées pour spécifier les éléments particuliers
+import Logging from './library/Logging';
 
 // Création d'une instance d'Express
 const router = express();
