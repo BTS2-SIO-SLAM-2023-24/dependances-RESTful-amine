@@ -10,6 +10,6 @@
         "mongoose": "^7.5.3"
     },
     "scripts": {
-        "build": "rd /s /q build && tsc"
+        "build": "if exist build (rd /s /q build) && tsc"
     }
 }
